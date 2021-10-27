@@ -10,7 +10,7 @@ namespace System.Device.Adc
     /// <summary>
     /// Represents a single ADC channel.
     /// </summary>
-    public sealed class AdcChannel : IAdcChannel, IDisposable
+    public class AdcChannel : IAdcChannel, IDisposable
     {
         // this is used as the lock object 
         // a lock is required because multiple threads can access the channel

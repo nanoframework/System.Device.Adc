@@ -10,7 +10,7 @@ namespace System.Device.Adc
     /// <summary>
     /// Represents an <see cref="AdcController"/> on the system
     /// </summary>
-    public sealed class AdcController : IAdcController
+    public class AdcController : IAdcController
     {
         // this is used as the lock object 
         // a lock is required because multiple threads can access the AdcController
