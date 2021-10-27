@@ -20,19 +20,16 @@ To read a channel, one must first instantiate the ADC controller and open the ch
 In order to read the raw value from an ADC channel, it's a simple matter of calling the Read() method on a open channel.
 
 ```csharp
-
 AdcController adc1 = new AdcController();
 
 AdcChannel channel0 = adc1.OpenChannel(0);
 
 int myAdcRawvalue = channel0.ReadValue();
-
 ```
 
 To find details about the ADC controller, one can query the various properties of the ADC controller, like this.
 
 ```csharp
-
 // get maximum raw value from the ADC controller
 int max1 = adc1.MaxValue;
 
@@ -45,7 +42,6 @@ int channelCount = adc1.ChannelCount;
 // resolution provided by the ADC controller
 int adcResolution = adc1.ResolutionInBits;
 ```
-
 
 ## Feedback and documentation
 
