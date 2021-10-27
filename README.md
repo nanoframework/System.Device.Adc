@@ -4,7 +4,7 @@
 
 -----
 
-### Welcome to the .NET **nanoFramework** System.Device.Adc Library repository!
+# Welcome to the .NET **nanoFramework** System.Device.Adc Library repository!
 
 ## Build status
 
