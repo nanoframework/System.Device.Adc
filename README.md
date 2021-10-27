@@ -13,6 +13,40 @@
 | System.Device.Adc | [![Build Status](https://dev.azure.com/nanoframework/System.Device.Adc/_apis/build/status/System.Device.Adc?branchName=main)](https://dev.azure.com/nanoframework/System.Device.Adc/_build/latest?definitionId=83&branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.System.Device.Adc.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.System.Device.Adc/) |
 | System.Device.Adc (preview) | [![Build Status](https://dev.azure.com/nanoframework/System.Device.Adc/_apis/build/status/System.Device.Adc?branchName=develop)](https://dev.azure.com/nanoframework/System.Device.Adc/_build/latest?definitionId=83&branchName=develop) | [![NuGet](https://img.shields.io/nuget/vpre/nanoFramework.System.Device.Adc.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.System.Device.Adc/) |
 
+## Usage
+
+Each target device has an ADC Controller, no matter how many ADC hardware blocks the microcontroller has.
+To read a channel, one must first instantiate the ADC controller and open the channel from which it's intended to read from.
+In order to read the raw value from an ADC channel, it's a simple matter of calling the Read() method on a open channel.
+
+```csharp
+
+AdcController adc1 = new AdcController();
+
+AdcChannel channel0 = adc1.OpenChannel(0);
+
+int myAdcRawvalue = channel0.ReadValue();
+
+```
+
+To find details about the ADC controller, one can query the various properties of the AdcController, like this.
+
+```csharp
+
+// get maximum raw value from the ADC controller
+int max1 = adc1.MaxValue;
+
+// get minimum raw value from the ADC controller
+int min1 = adc1.MinValue;
+
+// find how many channels are available 
+int channelCount = adc1.ChannelCount;
+
+// resolution provided by the ADC controller
+int adcResolution = adc1.ResolutionInBits;
+```
+
+
 ## Feedback and documentation
 
 For documentation, providing feedback, issues and finding out how to contribute please refer to the [Home repo](https://github.com/nanoframework/Home).
