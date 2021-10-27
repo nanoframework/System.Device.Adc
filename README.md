@@ -29,7 +29,7 @@ int myAdcRawvalue = channel0.ReadValue();
 
 ```
 
-To find details about the ADC controller, one can query the various properties of the AdcController, like this.
+To find details about the ADC controller, one can query the various properties of the ADC controller, like this.
 
 ```csharp
 
