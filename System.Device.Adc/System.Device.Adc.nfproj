@@ -43,8 +43,8 @@
     <Compile Include="AdcChannel.cs" />
     <Compile Include="AdcChannelMode.cs" />
     <Compile Include="AdcController.cs" />
-    <Compile Include="IAdcChannel.cs" />
-    <Compile Include="IAdcController.cs" />
+    <Compile Include="AdcChannelBase.cs" />
+    <Compile Include="AdcControllerBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

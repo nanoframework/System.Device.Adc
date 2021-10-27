@@ -10,7 +10,7 @@ namespace System.Device.Adc
     /// <summary>
     /// Represents an <see cref="AdcController"/> on the system
     /// </summary>
-    public class AdcController : IAdcController
+    public class AdcController : AdcControllerBase
     {
         // this is used as the lock object 
         // a lock is required because multiple threads can access the AdcController
@@ -45,13 +45,8 @@ namespace System.Device.Adc
             }
         }
 
-        /// <summary>
-        /// The number of channels available on the <see cref="AdcController"/>.
-        /// </summary>
-        /// <value>
-        /// Number of channels.
-        /// </value>
-        public int ChannelCount
+        /// <inheritdoc/>
+        public override int ChannelCount
         {
             get
             {
@@ -59,13 +54,8 @@ namespace System.Device.Adc
             }
         }
 
-        /// <summary>
-        /// Gets or sets the channel mode for the <see cref="AdcController"/>.
-        /// </summary>
-        /// <value>
-        /// The mode for the <see cref="AdcChannel"/>.
-        /// </value>
-        public AdcChannelMode ChannelMode 
+        /// <inheritdoc/>
+        public override AdcChannelMode ChannelMode 
         {
             get
             {
@@ -78,13 +68,8 @@ namespace System.Device.Adc
             }
         }
 
-        /// <summary>
-        /// Gets the maximum value that the <see cref="AdcController"/> can report.
-        /// </summary>
-        /// <value>
-        /// The maximum value.
-        /// </value>
-        public int MaxValue
+        /// <inheritdoc/>
+        public override int MaxValue
         {
             get
             {
@@ -92,13 +77,8 @@ namespace System.Device.Adc
             }
         }
 
-        /// <summary>
-        /// The minimum value the <see cref="AdcController"/> can report.
-        /// </summary>
-        /// <value>
-        /// The minimum value.
-        /// </value>
-        public int MinValue
+        /// <inheritdoc/>
+        public override int MinValue
         {
             get
             {
@@ -106,13 +86,8 @@ namespace System.Device.Adc
             }
         }
 
-        /// <summary>
-        /// Gets the resolution of the controller as number of bits it has. For example, if we have a 10-bit ADC, that means it can detect 1024 (2^10) discrete levels.
-        /// </summary>
-        /// <value>
-        /// The number of bits the <see cref="AdcController"/> has.
-        /// </value>
-        public int ResolutionInBits 
+        /// <inheritdoc/>
+        public override int ResolutionInBits 
         {
             get
             {
@@ -120,31 +95,14 @@ namespace System.Device.Adc
             }
         }
 
-
-        /// <summary>
-        /// Verifies that the specified channel mode is supported by the controller.
-        /// </summary>
-        /// <param name="channelMode">
-        /// The channel mode.
-        /// </param>
-        /// <returns>
-        /// True if the specified channel mode is supported, otherwise false.
-        /// </returns>
-        public bool IsChannelModeSupported(AdcChannelMode channelMode)
+        /// <inheritdoc/>
+        public override bool IsChannelModeSupported(AdcChannelMode channelMode)
         {
             return NativeIsChannelModeSupported((int)channelMode);
         }
 
-        /// <summary>
-        /// Opens a connection to the specified ADC channel.
-        /// </summary>
-        /// <param name="channelNumber">
-        /// The channel to connect to.
-        /// </param>
-        /// <returns>
-        /// The ADC channel.
-        /// </returns>
-        public AdcChannel OpenChannel(Int32 channelNumber)
+        /// <inheritdoc/>
+        public override AdcChannel OpenChannel(Int32 channelNumber)
         {
             NativeOpenChannel(channelNumber);
 

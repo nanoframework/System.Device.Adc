@@ -10,7 +10,7 @@ namespace System.Device.Adc
     /// <summary>
     /// Represents a single ADC channel.
     /// </summary>
-    public class AdcChannel : IAdcChannel, IDisposable
+    public class AdcChannel : AdcChannelBase, IDisposable
     {
         // this is used as the lock object 
         // a lock is required because multiple threads can access the channel
@@ -34,12 +34,7 @@ namespace System.Device.Adc
             _syncLock = new object();
         }
 
-        /// <summary>
-        /// Gets the AdcController for this channel.
-        /// </summary>
-        /// <value>
-        /// The <see cref="AdcController"/>.
-        /// </value>
+        /// <inheritdoc/>
         public AdcController Controller
         {
             get
@@ -48,24 +43,14 @@ namespace System.Device.Adc
             }
         }
 
-        /// <summary>
-        /// Reads the value as a percentage of the max value possible for this controller.
-        /// </summary>
-        /// <returns>
-        /// The value as percentage of the max value.
-        /// </returns>
-        public double ReadRatio()
+        /// <inheritdoc/>
+        public override double ReadRatio()
         {
             return ReadValue() / (double)_adcController.MaxValue;
         }
 
-        /// <summary>
-        /// Reads the digital representation of the analog value from the ADC.
-        /// </summary>
-        /// <returns>
-        /// The digital value.
-        /// </returns>
-        public int ReadValue()
+        /// <inheritdoc/>
+        public override int ReadValue()
         {
             lock (_syncLock)
             {
