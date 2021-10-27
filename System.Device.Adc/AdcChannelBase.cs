@@ -24,7 +24,10 @@ namespace System.Device.Adc
         /// <returns>
         /// The value as percentage of the max value.
         /// </returns>
-        public abstract double ReadRatio();
+        public double ReadRatio()
+        {
+            return ReadValue() / (double)Controller.MaxValue;
+        }
 
         /// <summary>
         /// Gets the AdcController for this channel.

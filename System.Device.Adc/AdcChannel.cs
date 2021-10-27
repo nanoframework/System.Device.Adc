@@ -44,12 +44,6 @@ namespace System.Device.Adc
         }
 
         /// <inheritdoc/>
-        public override double ReadRatio()
-        {
-            return ReadValue() / (double)_adcController.MaxValue;
-        }
-
-        /// <inheritdoc/>
         public override int ReadValue()
         {
             lock (_syncLock)
