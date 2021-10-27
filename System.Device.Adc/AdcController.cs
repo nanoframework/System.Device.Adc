@@ -51,7 +51,8 @@ namespace System.Device.Adc
         /// <value>
         /// Number of channels.
         /// </value>
-        public int ChannelCount {
+        public int ChannelCount
+        {
             get
             {
                 return NativeGetChannelCount();
@@ -64,11 +65,13 @@ namespace System.Device.Adc
         /// <value>
         /// The mode for the <see cref="AdcChannel"/>.
         /// </value>
-        public AdcChannelMode ChannelMode {
+        public AdcChannelMode ChannelMode 
+        {
             get
             {
                 return _channelMode;
             }
+
             set
             {
                 _channelMode = value;
@@ -81,12 +84,12 @@ namespace System.Device.Adc
         /// <value>
         /// The maximum value.
         /// </value>
-        public int MaxValue {
+        public int MaxValue
+        {
             get
             {
                 return NativeGetMaxValue();
             }
-            
         }
 
         /// <summary>
@@ -95,7 +98,8 @@ namespace System.Device.Adc
         /// <value>
         /// The minimum value.
         /// </value>
-        public int MinValue {
+        public int MinValue
+        {
             get
             {
                 return NativeGetMinValue();
@@ -108,7 +112,8 @@ namespace System.Device.Adc
         /// <value>
         /// The number of bits the <see cref="AdcController"/> has.
         /// </value>
-        public int ResolutionInBits {
+        public int ResolutionInBits 
+        {
             get
             {
                 return NativeGetResolutionInBits();

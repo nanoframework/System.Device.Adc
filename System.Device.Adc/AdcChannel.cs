@@ -18,7 +18,7 @@ namespace System.Device.Adc
         private readonly object _syncLock;
 
         [Diagnostics.DebuggerBrowsable(Diagnostics.DebuggerBrowsableState.Never)]
-        private readonly int  _channelNumber;
+        private readonly int _channelNumber;
 
         [Diagnostics.DebuggerBrowsable(Diagnostics.DebuggerBrowsableState.Never)]
         private AdcController _adcController;
@@ -40,8 +40,8 @@ namespace System.Device.Adc
         /// <value>
         /// The <see cref="AdcController"/>.
         /// </value>
-       public AdcController Controller
-       {
+        public AdcController Controller
+        {
             get
             {
                 return _adcController;
@@ -70,7 +70,10 @@ namespace System.Device.Adc
             lock (_syncLock)
             {
                 // check if pin has been disposed
-                if (_disposed) { throw new ObjectDisposedException(); }
+                if (_disposed) 
+                { 
+                    throw new ObjectDisposedException(); 
+                }
 
                 return NativeReadValue();
             }
@@ -108,12 +111,12 @@ namespace System.Device.Adc
             }
         }
 
-        #pragma warning disable 1591
+#pragma warning disable 1591
         ~AdcChannel()
         {
             Dispose(false);
         }
-        #pragma warning restore 1591
+#pragma warning restore 1591
 
         #endregion
 
