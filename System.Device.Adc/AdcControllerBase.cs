@@ -21,7 +21,6 @@ namespace System.Device.Adc
         /// </returns>
         public abstract bool IsChannelModeSupported(AdcChannelMode channelMode);
 
-
         /// <summary>
         /// Opens a connection to the specified ADC channel.
         /// </summary>
