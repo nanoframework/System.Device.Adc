@@ -10,6 +10,9 @@ namespace System.Device.Adc
     /// </summary>
     public abstract class AdcChannelBase
     {
+        [Diagnostics.DebuggerBrowsable(Diagnostics.DebuggerBrowsableState.Never)]
+        internal AdcController _adcController;
+
         /// <summary>
         /// Reads the digital representation of the analog value from the ADC.
         /// </summary>
@@ -35,6 +38,12 @@ namespace System.Device.Adc
         /// <value>
         /// The <see cref="AdcController"/>.
         /// </value>
-        public AdcController Controller { get; }
+        public AdcController Controller
+        {
+            get
+            {
+                return _adcController;
+            }
+        }
     }
 }
