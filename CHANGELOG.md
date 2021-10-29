@@ -1,5 +1,17 @@
 # Changelog
 
+## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/System.Device.Adc/tree/HEAD)
+
+[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.0-preview.6...HEAD)
+
+**Implemented enhancements:**
+
+- Move Controller property to base class [\#2](https://github.com/nanoframework/System.Device.Adc/pull/2)
+
+## [v1.0.0-preview.6](https://github.com/nanoframework/System.Device.Adc/tree/v1.0.0-preview.6) (2021-10-29)
+
+[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.0-preview.1...v1.0.0-preview.6)
+
 ## [v1.0.0-preview.1](https://github.com/nanoframework/System.Device.Adc/tree/v1.0.0-preview.1) (2021-10-27)
 
 [Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/34663284862256c27f328eca4deebb8b17c9bb9f...v1.0.0-preview.1)
