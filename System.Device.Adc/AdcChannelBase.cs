@@ -38,12 +38,6 @@ namespace System.Device.Adc
         /// <value>
         /// The <see cref="AdcController"/>.
         /// </value>
-        public AdcController Controller
-        {
-            get
-            {
-                return _adcController;
-            }
-        }
+        public AdcController Controller => _adcController;
     }
 }
