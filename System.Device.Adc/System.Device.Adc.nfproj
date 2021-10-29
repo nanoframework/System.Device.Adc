@@ -30,7 +30,7 @@
   <PropertyGroup>
     <!-- override default options for MetaDataProcessor -->
     <NF_GenerateStubsDirectory>bin\$(Configuration)\Stubs</NF_GenerateStubsDirectory>
-    <NF_GenerateSkeletonProjectName>win_dev_adc_native</NF_GenerateSkeletonProjectName>
+    <NF_GenerateSkeletonProjectName>sys_dev_adc_native</NF_GenerateSkeletonProjectName>
     <Name>System.Device.Adc</Name>
   </PropertyGroup>
   <ItemGroup>
