@@ -21,9 +21,6 @@ namespace System.Device.Adc
         private readonly int _channelNumber;
 
         [Diagnostics.DebuggerBrowsable(Diagnostics.DebuggerBrowsableState.Never)]
-        private AdcController _adcController;
-
-        [Diagnostics.DebuggerBrowsable(Diagnostics.DebuggerBrowsableState.Never)]
         private bool _disposed;
 
         internal AdcChannel(AdcController controller, int channelNumber)
@@ -32,15 +29,6 @@ namespace System.Device.Adc
             _channelNumber = channelNumber;
 
             _syncLock = new object();
-        }
-
-        /// <inheritdoc/>
-        public AdcController Controller
-        {
-            get
-            {
-                return _adcController;
-            }
         }
 
         /// <inheritdoc/>
