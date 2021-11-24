@@ -28,7 +28,6 @@ variables:
   buildConfiguration: 'Release'
   classLibName: 'System.Device.Adc'
   nugetPackageName: 'nanoFramework.System.Device.Adc'
-  repoName: 'System.Device.Adc'
 
 steps:
 

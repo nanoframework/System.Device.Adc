@@ -5,18 +5,18 @@
     <version>$version$</version>
     <title>nanoFramework.System.Device.Adc</title>
     <authors>nanoFramework project contributors</authors>
-    <owners>nanoFramework project contributors,dotnetfoundation</owners>
+    <owners>nanoFramework,dotnetfoundation</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="file">LICENSE.md</license>
     <releaseNotes>
     </releaseNotes>
+    <readme>docs\README.md</readme>
     <developmentDependency>false</developmentDependency>
     <projectUrl>https://github.com/nanoframework/System.Device.Adc</projectUrl>
     <iconUrl>https://secure.gravatar.com/avatar/97d0e092247f0716db6d4b47b7d1d1ad</iconUrl>
     <repository type="git" url="https://github.com/nanoframework/System.Device.Adc" commit="$commit$" />
     <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
     <description>This package includes the System.Device.Adc assembly for .NET nanoFramework C# projects.&#10;This package requires a target with System.Device.Adc v$nativeVersion$ (checksum $checksum$).</description>
-    <summary>System.Device.Adc assembly for nanoFramework C# projects</summary>
     <tags>nanoFramework C# csharp netmf netnf adc</tags>
     <dependencies>
       <dependency id="nanoFramework.CoreLibrary" version="1.10.5" />
@@ -30,6 +30,7 @@
     <file src="System.Device.Adc\bin\Release\System.Device.Adc.xml" target="lib\System.Device.Adc.xml" />
 
     <file src="assets\readme.txt" target="" />
+    <file src="README.md" target="docs\" />
     <file src="assets\nf-logo.png" target="images" />
     <file src="LICENSE.md" target="" />
   </files>
