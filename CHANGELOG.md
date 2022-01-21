@@ -2,7 +2,31 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/System.Device.Adc/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.0-preview.8...HEAD)
+[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.1...HEAD)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#6](https://github.com/nanoframework/System.Device.Adc/pull/6)
+
+## [v1.0.1](https://github.com/nanoframework/System.Device.Adc/tree/v1.0.1) (2021-12-23)
+
+[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.0...v1.0.1)
+
+## [v1.0.0](https://github.com/nanoframework/System.Device.Adc/tree/v1.0.0) (2021-12-02)
+
+[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.0-preview.13...v1.0.0)
+
+## [v1.0.0-preview.13](https://github.com/nanoframework/System.Device.Adc/tree/v1.0.0-preview.13) (2021-12-02)
+
+[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.0-preview.11...v1.0.0-preview.13)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.CoreLibrary from 1.11.6-preview.2 to 1.11.7 [\#4](https://github.com/nanoframework/System.Device.Adc/pull/4)
+
+## [v1.0.0-preview.11](https://github.com/nanoframework/System.Device.Adc/tree/v1.0.0-preview.11) (2021-11-30)
+
+[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.0-preview.8...v1.0.0-preview.11)
 
 **Documentation and other chores:**
 
