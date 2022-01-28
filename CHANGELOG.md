@@ -2,7 +2,15 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/System.Device.Adc/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.1...HEAD)
+[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.2-preview.4...HEAD)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#7](https://github.com/nanoframework/System.Device.Adc/pull/7)
+
+## [v1.0.2-preview.4](https://github.com/nanoframework/System.Device.Adc/tree/v1.0.2-preview.4) (2022-01-21)
+
+[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.1...v1.0.2-preview.4)
 
 **Documentation and other chores:**
 
