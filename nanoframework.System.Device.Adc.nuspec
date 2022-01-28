@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>nanoFramework.System.Device.Adc</id>
@@ -20,7 +20,7 @@
 This package requires a target with System.Device.Adc v$nativeVersion$ (checksum $checksum$).</description>
     <tags>nanoFramework C# csharp netmf netnf adc</tags>
     <dependencies>
-      <dependency id="nanoFramework.CoreLibrary" version="1.12.0-preview.1" />
+      <dependency id="nanoFramework.CoreLibrary" version="1.12.0-preview.5" />
     </dependencies>
   </metadata>
   <files>
