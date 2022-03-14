@@ -15,10 +15,11 @@
     <iconUrl>https://secure.gravatar.com/avatar/97d0e092247f0716db6d4b47b7d1d1ad</iconUrl>
     <repository type="git" url="https://github.com/nanoframework/System.Device.Adc" commit="$commit$" />
     <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
-    <description>This package includes the System.Device.Adc assembly for .NET nanoFramework C# projects.&#10;This package requires a target with System.Device.Adc v$nativeVersion$ (checksum $checksum$).</description>
+    <description>This package includes the System.Device.Adc assembly for .NET nanoFramework C# projects.
+This package requires a target with System.Device.Adc v$nativeVersion$ (checksum $checksum$).</description>
     <tags>nanoFramework C# csharp netmf netnf adc</tags>
     <dependencies>
-      <dependency id="nanoFramework.CoreLibrary" version="1.12.0-preview.9" />
+      <dependency id="nanoFramework.CoreLibrary" version="1.12.0-preview.18" />
     </dependencies>
   </metadata>
   <files>
