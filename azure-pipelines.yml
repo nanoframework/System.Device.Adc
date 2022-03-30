@@ -44,7 +44,6 @@ variables:
   solution: 'nanoframework.System.Device.Adc.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  classLibName: 'System.Device.Adc'
   nugetPackageName: 'nanoFramework.System.Device.Adc'
 
 steps:

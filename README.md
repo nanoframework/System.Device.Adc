@@ -10,8 +10,7 @@
 
 | Component | Build Status | NuGet Package |
 |:-|---|---|
-| System.Device.Adc | [![Build Status](https://dev.azure.com/nanoframework/System.Device.Adc/_apis/build/status/System.Device.Adc?branchName=main)](https://dev.azure.com/nanoframework/System.Device.Adc/_build/latest?definitionId=83&branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.System.Device.Adc.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.System.Device.Adc/) |
-| System.Device.Adc (preview) | [![Build Status](https://dev.azure.com/nanoframework/System.Device.Adc/_apis/build/status/System.Device.Adc?branchName=develop)](https://dev.azure.com/nanoframework/System.Device.Adc/_build/latest?definitionId=83&branchName=develop) | [![NuGet](https://img.shields.io/nuget/vpre/nanoFramework.System.Device.Adc.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.System.Device.Adc/) |
+| System.Device.Adc | [![Build Status](https://dev.azure.com/nanoframework/System.Device.Adc/_apis/build/status/System.Device.Adc?repoName=nanoframework%2FSystem.Device.Adc&branchName=main)](https://dev.azure.com/nanoframework/System.Device.Adc/_build/latest?definitionId=83&repoName=nanoframework%2FSystem.Device.Adc&branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.System.Device.Adc.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.System.Device.Adc/) |
 
 ## Usage
 
