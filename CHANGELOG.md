@@ -1,8 +1,16 @@
 # Changelog
 
-## [v1.0.0](https://github.com/nanoframework/System.Device.Adc/tree/v1.0.0) (2021-12-02)
+## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/System.Device.Adc/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.2-preview.13...HEAD)
+[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.2-preview.15...HEAD)
+
+**Documentation and other chores:**
+
+- release-v1.0.2 [\#12](https://github.com/nanoframework/System.Device.Adc/pull/12)
+
+## [v1.0.2-preview.15](https://github.com/nanoframework/System.Device.Adc/tree/v1.0.2-preview.15) (2022-03-28)
+
+[Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.2-preview.13...v1.0.2-preview.15)
 
 **Documentation and other chores:**
 
@@ -51,6 +59,10 @@
 ## [v1.0.1](https://github.com/nanoframework/System.Device.Adc/tree/v1.0.1) (2021-12-23)
 
 [Full Changelog](https://github.com/nanoframework/System.Device.Adc/compare/v1.0.0...v1.0.1)
+
+**Documentation and other chores:**
+
+- release-v1.0.1 [\#5](https://github.com/nanoframework/System.Device.Adc/pull/5)
 
 ## [v1.0.0](https://github.com/nanoframework/System.Device.Adc/tree/v1.0.0) (2021-12-02)
 
