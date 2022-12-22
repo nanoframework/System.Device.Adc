@@ -6,6 +6,9 @@
 
 **Documentation and other chores:**
 
+- Update 1 NuGet dependencies [\#15](https://github.com/nanoframework/System.Device.Adc/pull/15)
+- Update 1 NuGet dependencies [\#14](https://github.com/nanoframework/System.Device.Adc/pull/14)
+- Update 1 NuGet dependencies [\#13](https://github.com/nanoframework/System.Device.Adc/pull/13)
 - release-v1.0.2 [\#12](https://github.com/nanoframework/System.Device.Adc/pull/12)
 
 ## [v1.0.2-preview.15](https://github.com/nanoframework/System.Device.Adc/tree/v1.0.2-preview.15) (2022-03-28)
