@@ -102,7 +102,7 @@ namespace System.Device.Adc
         }
 
         /// <inheritdoc/>
-        public override AdcChannel OpenChannel(Int32 channelNumber)
+        public AdcChannel OpenChannel(Int32 channelNumber)
         {
             NativeOpenChannel(channelNumber);
 
