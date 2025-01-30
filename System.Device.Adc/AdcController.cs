@@ -102,7 +102,7 @@ namespace System.Device.Adc
         }
 
         /// <inheritdoc/>
-        public AdcChannel OpenChannel(Int32 channelNumber)
+        public override AdcChannel OpenChannel(int channelNumber)
         {
             NativeOpenChannel(channelNumber);
 
@@ -112,7 +112,7 @@ namespace System.Device.Adc
         #region Native Calls
 
         [MethodImpl(MethodImplOptions.InternalCall)]
-        private extern void NativeOpenChannel(Int32 channelNumber);
+        private extern void NativeOpenChannel(int channelNumber);
 
         [MethodImpl(MethodImplOptions.InternalCall)]
         private extern int NativeGetChannelCount();
